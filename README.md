@@ -21,7 +21,7 @@ Where f(x, y) is a known function and yo is a known initial value. We want to so
 
 If the difference between x=x1 and xo is small enough, then the point y=y1 on the tangent line should be a close approximation of the actual value of the solution y(x1). Therefore:
 
-<img src="/tex/1ea8e5ca49fc6b064fdf0dfc91295cf3.svg?invert_in_darkmode&sanitize=true" align=middle width=202.63231559999997pt height=24.65753399999998pt/>
+<img src="/tex/bdc73016433289b3ce41894da15dd6aa.svg?invert_in_darkmode&sanitize=true" align=middle width=201.14834684999997pt height=24.65753399999998pt/>
 
 To solve for y1, the same principal can be applied. 
 
