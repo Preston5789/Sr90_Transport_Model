@@ -21,7 +21,7 @@ Where f(x, y) is a known function and yo is a known initial value. We want to so
 
 If the difference between x=x1 and xo is small enough, then the point y=y1 on the tangent line should be a close approximation of the actual value of the solution y(x1). Therefore:
 
-$Y_1 = y_o + f(x_o,y_o)(x_1-x_o)$
+$y_1 = y_o + f(x_o,y_o)(x_1-x_o)$
 
 To solve for y1, the same principal can be applied. 
 
