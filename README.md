@@ -18,3 +18,19 @@ The composite model was numerically solved using Euler's method. Euler’s metho
 Where f(x, y) is a known function and yo is a known initial value. We want to solve for y(x). Therefore, the point (xo, yo) is an exact value known to lie on the solution curve. Then, at some arbitrary value of x:
 
 <img src="/tex/27f1e829498ef9c7400c40622d18e87f.svg?invert_in_darkmode&sanitize=true" align=middle width=186.98920184999997pt height=24.65753399999998pt/>
+
+If the difference between x=x1 and xo is small enough, then the point y=y1 on the tangent line should be a close approximation of the actual value of the solution y(x1). Therefore:
+
+$Y_1 = y_o + f(x_o,y_o)(x_1-x_o)$
+
+To solve for y1, the same principal can be applied. 
+
+$y_2=y_1+f(x_1,y_1)(x_2-x_1)$
+
+Where 𝑦1 and 𝑓(𝑥1,𝑦1) are already known quantities. Assuming that the difference between each consecutive x value is equal to h, then a recursive formula is produced:
+
+$x_{n+1} = x_n + h$
+
+y_{n+1} = y_n + h*f(x_n,y_n)
+
+The smaller the value of h, the better the approximation of y.
