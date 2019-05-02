@@ -31,6 +31,6 @@ Where 𝑦1 and 𝑓(𝑥1,𝑦1) are already known quantities. Assuming that th
 
 <img src="/tex/65c6d2d3eb10680105084e51d017a8ce.svg?invert_in_darkmode&sanitize=true" align=middle width=104.8096995pt height=22.831056599999986pt/>
 
-y_{n+1} = y_n + h*f(x_n,y_n)
+<img src="/tex/ec8ab53ed81a08142903a6f5a0642eab.svg?invert_in_darkmode&sanitize=true" align=middle width=182.92257719999998pt height=24.65753399999998pt/>
 
 The smaller the value of h, the better the approximation of y.
