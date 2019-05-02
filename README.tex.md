@@ -31,6 +31,6 @@ Where 𝑦1 and 𝑓(𝑥1,𝑦1) are already known quantities. Assuming that th
 
 $x_{n+1} = x_n + h$
 
-y_{n+1} = y_n + h*f(x_n,y_n)
+$y_{n+1} = y_n + h*f(x_n,y_n)$
 
 The smaller the value of h, the better the approximation of y.
