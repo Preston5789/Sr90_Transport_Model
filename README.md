@@ -10,4 +10,11 @@ In parallel, almond hulls have been proposed as potential biosorbents for Sr-90.
 
 ## The Math
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+The composite model was numerically solved using Euler's method. Euler’s method is used to approximate solutions to first order differential equations. We are using this as a numerical integration technique for estimating the solutions to this system of differential equations. As an example, suppose that we are given the following:
+
+![\frac{dy}{dt}=f(x,y)](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+![y(x_o)-y_o](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+
+Where f(x, y) is a known function and yo is a known initial value. We want to solve for y(x). Therefore, the point (xo, yo) is an exact value known to lie on the solution curve. Then, at some arbitrary value of x:
+
+![y=y_o + f(x_o,y_o)(x-x_o)](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
