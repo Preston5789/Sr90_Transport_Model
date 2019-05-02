@@ -1,7 +1,7 @@
 # MODELING STRONTIUM-90 TRANSPORT AND POTENTIAL REMEDIATION FROM A CONTAMINATED AQUIFER
 
 <p align="center">
-  <img src="https://github.com/Preston5789/Sr90_Transport_Model/ThesisPics/Underground.PNG" width="600" title="hover text">
+  <img src="https://github.com/Preston5789/Sr90_Transport_Model/blob/master/ThesisPics/Underground.PNG" width="400" title="hover text">
 </p>
 
 Radioactive waste injected into depleted oil reservoirs runs the risk of contaminating local aquifers if the bore casing of the injection hole were to fail. The currently proposed method of remediation involves multiple iterations of flushing to remove all contaminants. This is inefficient as the radionuclides adsorb into the aquifer rock and desorb back into the water table after a period of time. The adsorption/desorption kinetics for the activity concentration in the injection solution have been transformed into first order rate equations to model the interactions over time. The adsorption of Sr-90 has been modeled as a competitive process between two categories of rock.
