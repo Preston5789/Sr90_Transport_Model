@@ -10,6 +10,14 @@ In parallel, almond hulls have been proposed as potential biosorbents for Sr-90.
 
 ## The Math
 
+### Combining Models
+
+The purpose of this thesis is to integrate a biosorbent model into the dual-site-one-component model of the rock. The almond hull is treated as a third compartment that will compete for the adsorption of Sr-90. Both the almond hull model and the dual-site one component model are defined by first order rate equations discussed in the literature review. Both of the rate equations for the fluid activity concentration are combined and modeled using Euler’s Method as described in the following sections.
+
+The two rate equations for each rock type (Equations 5 and 6) need to be expressed as one rate equation for the injection solution 𝑑𝐶/𝑑𝑡. The derivative of Rumynin’s Mass Balance Equation (Equation 9) can be taken to solve for the 𝑑𝐶/𝑑𝑡 term needed to solve for the system of differential equations. The method used to solve the differential equations is discussed further in Section 3.3. The first derivative of Rumynin’s Mass Balance is taken to get:
+
+### Numerical Solving
+
 The composite model was numerically solved using Euler's method. Euler’s method is used to approximate solutions to first order differential equations. We are using this as a numerical integration technique for estimating the solutions to this system of differential equations. As an example, suppose that we are given the following:
 
 <img src="/tex/24026b05206d753c30bfcc87169de526.svg?invert_in_darkmode&sanitize=true&sanitize=true" align=middle width=85.76581365pt height=30.648287999999997pt/>
