@@ -10,4 +10,4 @@ In parallel, almond hulls have been proposed as potential biosorbents for Sr-90.
 
 ## The Math
 
-\begin{equation} \label{forces} F = \begin{bmatrix} -300 & -200 & -100 & 0 & 100 & 200 & 300 \end{bmatrix} N. \end{equation}
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
